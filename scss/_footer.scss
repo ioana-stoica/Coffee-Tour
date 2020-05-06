@@ -1,0 +1,49 @@
+/*FOOTER*/
+
+footer {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
+  height: 4em;
+  background-color: #9B786F;
+  color: white;
+  div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    p {
+      padding: 0 2px 0 2px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      &:hover {
+        opacity: 40%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  footer {
+    div {
+      justify-content: center;
+      p {
+        padding: 0 5px 0 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    div {
+      justify-content: center;
+      p {
+        padding: 0 5px 0 5px;
+      }
+    }
+  }
+}

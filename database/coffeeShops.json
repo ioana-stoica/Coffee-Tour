@@ -1,0 +1,116 @@
+{
+  "coffeeShops": [
+    {
+      "id": 1,
+      "name": "Saint Roastery Specialty Coffee",
+      "description": "Saint Roastery is the story of a couple who has spend the last couple of years traveling around the world, to discover all the aspects of coffee, from the farm to the cup, from Africa to America. Saint Roastery is the result of their research and experiences, being both a roastery and a coffee shop, both located in the same place. The place is spacious, the owners are friendly, and of course, the coffee is good.",
+      "latitude": 44.451416,
+      "longitude": 26.078329,
+      "images": ["https://media-cdn.tripadvisor.com/media/photo-s/19/d8/d8/75/saint-roastery-specialty.jpg", "https://fastly.4sqi.net/img/general/600x600/12690610__F2-itPYoDpL7AL_SStl_Qfi4Geu5TgKSFkXggQIox0.jpg", "https://bucharest.io/wp-content/uploads/saint-roastery.jpg", "https://www.anuala.ro/proiecte/2019/149/thumb.jpg"],
+      "hasRoastery": true,
+      "servesFood": true,
+      "petFriendly": false
+    },
+    {
+      "id": 2,
+      "name": "Origo Coffee",
+      "description": "Our focus is on a single dream: to develop the specialty coffee field in Romania, to explore its potential in taste, following the whole path: from the farm, to the roastery and to the cup.",
+      "latitude": 44.434017,
+      "longitude": 26.095426,
+      "images": ["https://images.adsttc.com/media/images/518a/cb33/b3fc/4bd9/1700/003d/large_jpg/raduM_112.jpg?1368050469","https://storage0.dms.mpinteractiv.ro/media/1/1481/21335/17400805/1/6origo-og.jpg", "https://s24667.pcdn.co/wp-content/uploads/2017/10/Origo-Coffee-Bucharest-Cafe-Guide.jpg", "https://bigseventravel.com/wp-content/uploads/2019/06/bob-1024x1024.jpg"],
+      "hasRoastery": true,
+      "servesFood": true,
+      "petFriendly": true
+    },
+    {
+      "id": 3,
+      "name": "Orygyns Specialty Coffee",
+      "description": "Great cozy place to enjoy a nice flat white and a delicious pasteis de nata!",
+      "latitude": 44.444167,
+      "longitude": 26.099329,
+      "images": ["https://www.amjourneys.com/wp-content/uploads/2017/07/Orygyns-Coffee-Shop-and-The-World-Atlas-of-Coffee.jpg", "https://i0.wp.com/www.travelingness.com/wp-content/uploads/2019/04/IMG_9874.jpg", "https://media-cdn.tripadvisor.com/media/photo-s/10/6e/3f/13/20170820-110512-largejpg_rotated_90.jpg", "https://cdn.beanhunter.com/img/a44a79b793575fb33ee81b21b6418342.jpg"],
+      "hasRoastery": false,
+      "servesFood": true,
+      "petFriendly": false
+    },
+    {
+      "id": 4,
+      "name": "M60",
+      "description": "M60 Cafe is a cafe located in the Amzei area, at the intersection of Mendeleev and George Enescu streets, in a busy area, with pedestrian traffic, but also intense road traffic.\nThe staff is distinguished only by the fact that you see them bringing your order to the table, because you have to go personally to order and pay at the bar. But everyone is friendly, sociable and very relaxed and behaves very openly with everyone.",
+      "latitude": 44.443332,
+      "longitude": 26.096715,
+      "images": ["https://www.restocracy.ro/wp-content/uploads/2017/07/M60-cafenea-boema-la-Piata-Amzei-in-Bucuresti-2.jpg", "https://www.restocracy.ro/wp-content/uploads/2017/07/M60-cafenea-boema-la-Piata-Amzei-in-Bucuresti-9.jpg", "https://assets.sport.ro/assets/foodstory2019/2015/03/27/image_galleries/5782/m60-un-coffee-bar-experiment-cu-cafea-de-specialitate-si-mancare-buna_2_size1.jpg", "https://evt-p.s3.eu-central-1.amazonaws.com/profiles/avatars_big/000/013/303.jpg?1450678275"],
+      "hasRoastery": false,
+      "servesFood": true,
+      "petFriendly": true
+    },
+    {
+      "id": 5,
+      "name": "STEAM Coffee Shop",
+      "description": "A place with a great coffee. One of the best coffees in Bucharest. A small cafe, but worth a visit.",
+      "latitude": 44.465177,
+      "longitude": 26.085115,
+      "images": ["https://assets.sport.ro/assets/foodstory/2015/01/21/image_galleries/5609/cum-arata-cel-mai-mic-coffee-shop-din-bucuresti-doi-barista-cu-experienta-internationala-vand-aici-cafea_8.jpg", "https://bucharest.io/wp-content/uploads/steam2-1200x800.jpg", "https://www.restocracy.ro/wp-content/uploads/2017/08/Steam-mini-cafenea-hipster-la-Charles-de-Gaulle-in-Bucuresti-03.jpg", "https://assets.sport.ro/assets/foodstory2019/2015/01/21/image_galleries/5609/cum-arata-cel-mai-mic-coffee-shop-din-bucuresti-doi-barista-cu-experienta-internationala-vand-aici-cafea_7_size1.jpg"],
+      "hasRoastery": false,
+      "servesFood": false,
+      "petFriendly": true
+    },
+    {
+      "id": 6,
+      "name": "MAD.GOAT Specialty Coffee Shop",
+      "description": "Join them and their MAD.GOAT for freshly roasted specialty coffee. The goat is the descendant of the Ethiopian dancing goat who chewed with great pleasure the red berries with dark leaves. And then ... they discovered coffee. And they are happy to extract it for you, add some milk if you please, a good smile, a story, a laugh from time to time and a lot of passion for specialty coffee.",
+      "latitude": 44.429832,
+      "longitude": 26.097964,
+      "images": ["https://s3-media4.fl.yelpcdn.com/bphoto/JW-3bXtTX9x2AjCta-3Y9A/o.jpg", "https://gomagcdn.ro/domains/tastecrafters.ro/files/files/20181013_130936.jpg", "https://guerrillaradio.b-cdn.net/wp-content/uploads/2019/02/fullsizeoutput_3cc6.jpeg", "https://traveladestatic.imgix.net/media/image/madgoat-specialty-coffee-shop.JPEG"],
+      "hasRoastery": false,
+      "servesFood": true,
+      "petFriendly": true
+    },
+    {
+      "id": 7,
+      "name": "VanFruct Coffee Shop",
+      "description": "",
+      "latitude": ,
+      "longitude": ,
+      "images": [""],
+      "hasRoastery": ,
+      "servesFood": ,
+      "petFriendly":
+    },
+    {
+      "id": 8,
+      "name": "T-zero Specialty Coffee Shop",
+      "description": "",
+      "latitude": ,
+      "longitude": ,
+      "images": [""],
+      "hasRoastery": ,
+      "servesFood": ,
+      "petFriendly":
+    },
+    {
+      "id": 9,
+      "name": "Drip Coffee Shop",
+      "description": "",
+      "latitude": ,
+      "longitude": ,
+      "images": [""],
+      "hasRoastery": ,
+      "servesFood": ,
+      "petFriendly":
+    },
+    {
+      "id": 10,
+      "name": "TED's Coffee Co.",
+      "description": "",
+      "latitude": ,
+      "longitude": ,
+      "images": [""],
+      "hasRoastery": ,
+      "servesFood": ,
+      "petFriendly":
+    }
+  ]
+}
+
+

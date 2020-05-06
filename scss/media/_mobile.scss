@@ -1,0 +1,48 @@
+//
+////MOBILE
+//
+//@media only screen and (max-width: 599px) {
+//  #headerContainer {
+//    width: 90%;
+//    h1 {
+//      font-size: 1.5em;
+//    }
+//  }
+
+
+  #mainContainer {
+    #content {
+
+
+      #middleSection {
+        //width: 100%;
+
+        #map {
+          //width: 90%;
+        }
+
+        #details {
+          //flex-direction: column;
+
+          #carouselContainer {
+            width: 100%;
+            height: 100%;
+          }
+
+          #coffeeshop-info {
+            width: 100%;
+          }
+        }
+      }
+
+      #asideRight {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    }
+  }
+}

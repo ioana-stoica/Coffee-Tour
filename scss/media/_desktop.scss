@@ -1,0 +1,36 @@
+#headerContainer {
+
+  //width: 50%;
+
+}
+
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  padding-top: 1rem;
+}
+
+#middleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  //width: 70%;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 25em;
+  //border: 1px black solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#details {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}

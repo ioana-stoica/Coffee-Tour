@@ -1,0 +1,76 @@
+
+#details {
+  height: 100%;
+  //display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  #details {
+    //display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #details {
+    //display: flex;
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+//Info About Coffee Shop
+
+
+#coffeeshop-info {
+  width: 100%;
+  margin-bottom: 1em;
+  height: 100%;
+
+  h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #d1a701;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+    padding: 0.5em 0 0.5em 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  #coffeeshop-info {
+    width: 40%;
+
+    h3 {
+      font-size: 1.6em;
+    }
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #coffeeshop-info {
+    width: 40%;
+
+    h3 {
+      font-size: 2em;
+      padding-bottom: 0.6em;
+    }
+
+  }
+}
+
+
+
+

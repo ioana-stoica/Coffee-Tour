@@ -1,0 +1,52 @@
+h2 {
+  padding-bottom: 0;
+}
+
+.loginForm {
+  height: 30rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  input {
+    width: 80%;
+    height: 10%;
+    margin: 20px 5px 20px 5px;
+  }
+
+  input[type=submit] {
+    width: 6.5em;
+    height: 2.5em;
+    border: 1px solid #914420;
+    text-align: center;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: #914420;
+    font-size: 0.8em;
+    font-weight: bolder;
+
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .loginForm {
+    input {
+      width: 60%;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .loginForm {
+    input {
+      width: 55%;
+    }
+  }
+}

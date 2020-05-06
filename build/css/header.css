@@ -1,0 +1,111 @@
+/*CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+/*HEADER SECTION*/
+header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10rem;
+}
+
+#headerContainer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  height: 5em;
+  width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  #headerContainer {
+    width: 70%;
+  }
+}
+
+#headerContainer h1 {
+  text-align: center;
+  color: white;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../img/logo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40%;
+}
+
+/*MIDDLE SECTION*/
+#mainContainer {
+  /*height: 35em;*/
+}
+
+nav {
+  display: none;
+}
+
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  padding-top: 1rem;
+}
+
+#middleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 25em;
+  border: 1px black solid;
+}
+
+#details {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+#carouselContainer {
+  width: 40%;
+}
+
+#coffeeshop-info {
+  width: 40%;
+}
+
+/*RIGHT SECTION*/
+#asideRight {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*FOOTER*/
+footer {
+  border: 1px solid black;
+  text-align: center;
+  height: 4em;
+}

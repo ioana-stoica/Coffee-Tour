@@ -1,0 +1,74 @@
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #914420;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#myForm {
+  font-family: 'Cabin', sans-serif;
+  height: 30rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  input[type=text] {
+    height: 10%;
+    width: 90%
+  }
+  input[type=email] {
+    height: 10%;
+    width: 90%
+  }
+  textarea {
+    height: 30%;
+    width: 90%
+  }
+  input[type=submit] {
+    height: 40px;
+    width: 100px;
+    background-color: yellow;
+    color: #914420;
+    font-size: 1.3em;
+    border-radius: 10%;
+  }
+  ul {
+    list-style: none;
+    color: #914420;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  #myForm {
+    input[type=text] {
+      width: 80%;
+    }
+    input[type=email] {
+      width: 80%;
+    }
+    textarea {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #myForm {
+    input[type=text] {
+      width: 60%;
+    }
+    input[type=email] {
+      width: 60%;
+    }
+    textarea {
+      width: 60%;
+      height: 40%;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+//----------------------------------------------------------------
+/*RIGHT SECTION*/
+
+#asideRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+  width: 90%;
+
+  div label input {
+    margin-right: 50px;
+  }
+
+  .buttons {
+    margin:4px;
+    background-color: #ecd855;
+    border-radius: 1em;
+    border:1px solid sandybrown;
+    overflow:auto;
+    float:left;
+
+    label {
+      float:left;
+      width: 5.4em;
+      height: 2.3em;
+      span {
+        font-family: 'Cabin', sans-serif;
+        font-size: 0.90em;
+        color: #914420;
+        padding: 0.5em 0 0.5em 0.2em;
+        display:block;
+        width: 100%;
+        height: 100%;
+      }
+      input {
+        position:absolute;
+        top:-20px;
+      }
+    }
+    input:checked + span {
+      background-color: #914420;
+      color: white;
+    }
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1023px){
+  #asideRight {
+    padding-bottom: 1.5em;
+    font-size: 1.2em;
+    justify-content: center;
+    .buttons {
+      label {
+        width: 8em;
+        span {
+          font-size: 0.95em;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #asideRight {
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 8em;
+    .buttons {
+      label {
+        width: 8em;
+        span {
+          font-size: 1em;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
