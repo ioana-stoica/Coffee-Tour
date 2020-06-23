@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
                     <div id="headerContainer">
                         <h1> <Link to="/"> Bucharest Coffee Tour </Link></h1>
                         <div id="logo">
-                            <img src={'../img/vintage-logo.jpg'} alt={'logo'}/>
+                            <img src={'/img/vintage-logo.jpg'} alt={'logo'}/>
                         </div>
                     </div>
 

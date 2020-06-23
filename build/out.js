@@ -4556,9 +4556,7 @@ function (_React$Component) {
     value: function render() {
       return react_default.a.createElement("section", {
         id: "middleSection"
-      }, react_default.a.createElement(myMap, null), react_default.a.createElement("a", {
-        href: '#details'
-      }), react_default.a.createElement(details, {
+      }, react_default.a.createElement(myMap, null), react_default.a.createElement(details, {
         id: this.props.id,
         coffeeShop: this.props.coffeeShop
       }));
