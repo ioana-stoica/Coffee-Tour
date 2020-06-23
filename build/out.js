@@ -4816,8 +4816,10 @@ function (_React$Component) {
               objCoffeeShop: clickedCoffeeShop
             });
             console.log(self.state.id);
-            console.log(self.state.objCoffeeShop);
-            window.location.href = "#details";
+            console.log(self.state.objCoffeeShop); // window.location.href="#details"
+            // var url = location.href;               //Save down the URL without hash.
+            // location.href = "#details";var url = location.href;               //Save down the URL without hash.
+            // location.href = "#details";
           });
         });
 

@@ -10,7 +10,7 @@ class MiddleSection extends React.Component {
         return (
             <section id="middleSection">
                 <MyMap />
-                <a href={'#details'}/>
+                {/*<a href={'#details'}/>*/}
                 <Details id={this.props.id} coffeeShop={this.props.coffeeShop}/>
             </section>
         )
