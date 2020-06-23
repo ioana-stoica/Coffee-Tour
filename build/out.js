@@ -4142,7 +4142,7 @@ function (_React$Component) {
       }, " Bucharest Coffee Tour ")), react_default.a.createElement("div", {
         id: "logo"
       }, react_default.a.createElement("img", {
-        src: '/img/vintage-logo.jpg',
+        src: 'img/vintage-logo.jpg',
         alt: 'logo'
       }))));
     }
